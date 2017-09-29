@@ -1,0 +1,19 @@
+{
+  "name": "redis-socketio-push-notifications-example",
+  "version": "1.0.0",
+  "description": "A sample socket.io example that subscribes to a Redis channel and send the notification to the browser",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redis",
+    "socket.io"
+  ],
+  "author": "Stefano Mancini <DevInterface SRL>",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^2.8.0",
+    "socket.io": "^2.0.3"
+  }
+}
